@@ -1,0 +1,21 @@
+print("---GIAI PHUONG TRINH BAC 2: ax^2+bx+c=0---:")
+a = float(input("Nhap vao gia tri tham so a: "))
+b = float(input("Nhap vao gia tri tham so b: "))
+c = float(input("Nhap vao gia tri tham so c: "))
+if a==0:
+    x = -c/b
+    print("PHUONG TRINH CO 1 NGHIEM LA: x =",x)
+else:
+    delta = b**2-4*a*c
+    if delta == 0:
+        x = (-b+math.sqrt(delta))/2*a
+        print("PHUONG TRINH CO NGHIEM KEP LA: x1 = x2 =",x)
+    if delta > 0:
+        x_1 = (-b+math.sqrt(delta))/2*a
+        x_2 = (-b-math.sqrt(delta))/2*a
+        print("PHUONG TRINH CO 2 NGHIEM LA: ")
+        print("x1 =",x_1)
+        print("x2 =",x_2)
+    else:
+        print("PHUONG TRINH VO NGHIEM")
+

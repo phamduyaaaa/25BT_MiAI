@@ -1,0 +1,19 @@
+toan = float(input("Nhap vao diem toan: "))
+van = float(input("Nhap vao diem van: "))
+anh = float(input("Nhap vao diem anh: "))
+if (0<=toan<=10) and (0<=van<=10) and (0<=anh<=10):
+    trungbinh = (toan+van+anh)/3
+else:
+    print("So diem khong hop le!")
+    exit()
+if (trungbinh>=8 ) or (toan >=8 ) or (van>=8):
+    if (6.5<=toan) and (6.5<=van) and (6.5<=anh):
+        print("Hoc sinh gioi!")
+if (trungbinh>=6.5) or (toan>=6.5) or (van>=6.5):
+    if (5 <= toan) and (5 <= van) and (5 <= anh):
+        print("Hoc sinh kha!")
+if (trungbinh >= 3.5) or (toan >= 3.5) or (van >= 3.5):
+    if(2 <= toan) and (2 <= van) and (2 <= anh):
+        print("Hoc sinh trung binh!")
+else:
+    print("Hoc sinh kem!")

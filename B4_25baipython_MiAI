@@ -1,0 +1,8 @@
+a = float(input("Nhap vao a: "))
+b = float(input("Nhap vao b: "))
+c = float(input("Nhap vao c: "))
+if a<0 or b<0 or c<0:
+    print("---DO DAI KHONG HOP LE!---")
+else:
+    if a+b>c or a+c>b or b+c>a:
+        print("3 THAM SO TREN TAO THANH 1 TAM GIAC!")

@@ -1,0 +1,14 @@
+n = int(input("Nhap vao so nguyen duong n: "))
+a = 0
+dem_chan = 0
+dem_le = 0
+while (n >= 0):
+    a += 1
+    n //= 10
+    if n % 2 != 0:
+        
+    else:
+        dem_chan += 1
+print(a)
+print(dem_chan)
+print(dem_le)

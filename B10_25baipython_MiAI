@@ -1,0 +1,12 @@
+a = int(input("Nhap vao so nguyen duong a: "))
+n = 0
+if a<=0:
+    print("a phai la so nguyen duong")
+else:
+    for x in range(2,a):
+        if a%x==0:
+            n+=1
+    if n >=1:
+        print("n khong phai la so nguyen to")
+    else:
+        print("n la so nguyen to")

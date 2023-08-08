@@ -1,0 +1,9 @@
+x = 0
+list = []
+print("Nhap vao day so: ")
+while (x != -1):
+    x = int(input())
+    list.append(x)
+print("Day da nhap la: ",list)
+print("So lon nhat la: ",max(list))
+print("So nho nhat la: ",min(list))

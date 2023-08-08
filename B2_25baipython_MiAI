@@ -1,0 +1,11 @@
+thang = int(input("Nhap vao thang: "))
+nam = int(input("Nhap vao nam: "))
+ngay = 31
+if (thang ==2):
+    if (nam%4==0):
+        ngay = 29
+    else:
+        ngay = 28
+elif (thang%2==0) and (thang!=8):
+        ngay = 30
+print("Thang",thang,"co:",ngay,"ngay")
